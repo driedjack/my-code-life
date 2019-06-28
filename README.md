@@ -12,6 +12,8 @@ Thế nên tôi ghi lại.
 
 Thư mục này là nơi tôi viết cho blog của mình, có bài sẽ đăng hoặc không, có bài nháp hoặc chính thức, công việc viết được thực hiện ở đây. Các bạn nếu quan tâm có thể đọc những file này cũng được, hoặc nếu thích định dạng khác thì truy cập vào http://www.purinpurin.me/.
 
+![blog](https://github.com/driedjack/my-code-life/blob/master/Screen%20Shot%202019-06-28%20at%2022.23.51.png)
+
 Đa phần tôi sẽ viết về những thứ học được khi đi làm hoặc tự học lúc rảnh, tất cả sẽ là kinh nghiệm cá nhân, đúng sai tôi không chắc, nhưng chỉ mong nó có giá trị gì đó với người đọc. Hiện tại tôi đến với lập trình được hai năm, phần lớn thời gian là dành cho **Ruby on Rails**, nên những bài về framework này có thể nhiều và kĩ hơn. Tôi cũng đang học thêm **Vue.js** và **SQL** nên sẽ có vài bài liên quan chủ đề này.
 
 ## TIL
