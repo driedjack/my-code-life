@@ -2,8 +2,8 @@ _Những thông tin dưới đây đều là kinh nghiệm cá nhân khi đi ph�
 
 ## Dấu == trong javascript
 
-```
-1 == '1' # return what?
+```js
+1 == '1' // return what?
 ```
 Đáp án là true. Vì sao? Trong javascript, so sáng bằng nhau có hai loại, một loại là so sánh nghiêm (`===`), chỉ trả về true nếu hai toán hạng có cùng kiểu và cùng giá trị, loại còn lại là so sánh bằng bình thường (`==`),  toán tử này sẽ chuyển hai toán hạng về cùng một kiểu (nếu khác kiểu) rồi so sánh (dùng so sánh nghiêm). Khi đó `'1'` sẽ chuyển về cùng kiểu với `1`, `1 === 1` cho kết quả true.
 
@@ -25,16 +25,19 @@ Tại sao? Trong Ruby mọi thứ đều là object, đó là triết lý của 
 ## Phân biệt update_attribute, update_attributes và update_all
 
 `update_attribute` dùng để update một thuộc tính bất kì của một record nào đó, hàm này bỏ qua validate, vẫn chạy qua các callback bình thường và update luôn cả các thuộc tính đã dirty (có bị chỉnh sửa).
+
 ```ruby
 person.update_attribute(:adult, true)
 ```
 
 `update_attributes`, hàm này có vẻ màu mè nhưng thực chất chính là hàm update mình dùng hằng ngày nên khỏi phải nói thêm.
+
 ```ruby
 person.update_attributes(nickname: 'driedjack', age: 25)
 ```
 
 `update_all`, hàm này gọi trên nhóm đối tượng (relation) hiện tại, nó sẽ dựng thẳng một câu SQL udpate tất cả những thuộc tính được nêu vì thế nó không khởi tạo bất cứ instance nào cũng như không gọi validate hay callback nhưng giá trị truyền vào vẫn sẽ được type cast và serialize bình thường.
+
 ```ruby
 People.update_all(awesome: true, parents: 'nothing')
 ```
