@@ -1,0 +1,1 @@
+Đây là bài đầu tiên trong series giới thiệu về Ruby on Rails cho người mới. Series này đề cập tới những vấn đề cơ bản của lập trình web, ngôn ngữ lập trình Ruby. Với phương châm cho người đọc cái nhìn đơn giản nhưng thông suốt
