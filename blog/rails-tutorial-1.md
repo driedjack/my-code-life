@@ -38,7 +38,7 @@ Vì mình code trên macbook nên nếu các bạn dùng macbook hay hệ điề
 
 Bạn có thể vào trang chủ của Ruby và tải về cài vào máy cho từng phiên bản Ruby, nhưng làm vậy khá là rắc rối khi bạn làm việc với nhiều dự án với các phiên bản khác nhau, phải chuyển qua chuyển lại linh tinh nên mình khuyến khích các bạn dùng quản lý phiên bản Ruby. Có hai trình quản lý thông dụng dùng cho Ruby là rvm và rbenv, nó sẽ quản lý các phiên bản rbenv và cung cấp cho mình vài câu lệnh để chuyển đổi phiên bản hay cài đặt phiên bản nhanh và thoải mái. Mình dùng rbenv nên hướng dẫn cách cài nó ở đây luôn.
 
-Mình sẽ cần cài Ruby 2.6.3, Rails 5.2.3 với cả nodejs nữa.
+Mình sẽ cần cài Ruby 2.6.3, Rails 6.0.0.rc1 với cả nodejs nữa.
 
 ### rbenv
 Mình dùng brew để cài, chạy những lệnh này trong terminal
@@ -72,7 +72,7 @@ Auditing installed plugins: OK
 
 Ra giống giống như vầy là ok rồi đó! Tới lượt cài Ruby.
 
-## Ruby
+### Ruby
 Bạn chạy lệnh này để cài ruby mới nhất ở thời điểm viết bài này.
 
 ```bash
@@ -95,4 +95,62 @@ hoặc cài đặt cục bộ cho từng project riêng biệt khi. Khi terminal
 
 ```bash
 rbenv local 2.6.3
+```
+
+Để kiểm tra xem Ruby đã được cài đúng chưa thì gõ lệnh
+
+```bash
+ruby -v
+
+ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-darwin18]
+```
+
+để xem phiên bản hiện tại của nó nhé. (Chủ yếu là 2.6.3 còn mấy số loằn ngoằn sau thì tuỳ máy với phiên bản nữa nhá)
+
+### Rails
+Để cài Rails chạy lệnh
+
+```bash
+gem install rails -v 6.0.0.rc1
+```
+
+```bash
+rails -v
+
+Rails 6.0.0.rc1
+```
+
+ra như trên là ok rồi đó.
+
+### Những thứ khác
+Bạn cần cài thêm nodejs và yarn
+
+Với nodejs bạn cứ việc lên trang chủ tải bộ cài về là ok. Mình đang dùng phiên bản 12.4.0, bạn có thể dùng phiên bản 10 cũng được.
+
+Cũng như rbenv, mình dùng brew để cài yarn
+
+```bash
+brew install yarn
+```
+
+Còn một điểm nữa đó là cơ sở dữ liệu, mặc định thì Rails dùng sqlite đã được cài sẵn trong máy nên không cần cài thêm. Để test thì dùng sqlite ok, nhưng để làm cho sản phẩm thì thường người ta sẽ dùng MySql, Postgresql, MongoDb,... rất nhiều thứ ngoài kia đang chờ bạn khám phá nhưng tạm thời ở đây sqlite là đủ rồi.
+
+## Khởi tạo dự án
+
+Trong terminal, bạn đi đến thư mục mà mình muốn đặt project của mình, sau đó chạy lệnh 
+
+```bash
+rails new books-sharing
+
+cd books-sharing
+```
+
+để tạo một thư mục chứa code, mình sẽ làm việc với thư mục này, books-sharing là tên project của mình.
+
+Sau khi đã vào thư mục mới, bạn chạy lệnh các lệnh sau
+
+```bash
+bundle
+
+yarn
 ```
