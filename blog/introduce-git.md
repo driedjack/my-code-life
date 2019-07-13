@@ -13,3 +13,7 @@ Và Git là một DVCS!
 Ngoài ra, các DVCS còn có thể thể làm việc với các dự án từ xa, có thể đẩy lên đâu đó để người khác lấy về dùng, cùng chung một dự án, biết hết các phiên bản. Dẫn đến một ứng dụng khác rất hữu ích để làm việc với git, đó là Github!
 
 Rảnh thì mình sẽ nói tiếp về github sau nhé!
+
+---
+
+Sẵn mình xin hướng dẫn cài git cho macOs luôn. Mà thôi cái này thì nhiều quá rồi, mình xin lấy bài của *Michael Galarnyk* (dù chưa xin phép, nhưng xin phép dẫn nguồn ở đây!). Các bạn vào [trang này](https://hackernoon.com/install-git-on-mac-a884f0c9d32c) và làm theo hướng dẫn, có ảnh ọt nhìn cho dễ.
