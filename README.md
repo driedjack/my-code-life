@@ -16,14 +16,12 @@ Thư mục này là nơi tôi viết cho blog của mình, có bài sẽ đăng 
 
 ## TIL
 
-Thư mục này có tên viết tắt từ tiếng anh *Today I Learn*, cứ mãi ngày trôi qua tôi mong muốn được học điều gì đó mới mẻ cho cuộc đời này, thế nên tôi sẽ ghi lại những gì tôi hiểu, có thể là giải quyết vấn đề gì đó, hay chỉ để làm trò mèo để vui tôi sẽ vẫn ghi lại. Đa phần những bài viết này sẽ ngắn, đề cấp đến một vấn đề tí hon, cảm xúc cũng chiếm nhiều. Tôi học được thì tất nhiên tôi cũng mong là nó cũng có ích đến các bạn.
+Thư mục này có tên viết tắt từ tiếng anh *Today I Learn*, cứ mỗi ngày trôi qua tôi mong muốn được học điều gì đó mới mẻ cho cuộc đời này, thế nên tôi sẽ ghi lại những gì tôi hiểu, có thể là giải quyết vấn đề gì đó, hay chỉ để làm trò mèo để vui tôi sẽ vẫn ghi lại. Đa phần những bài viết này sẽ ngắn, đề cấp đến một vấn đề tí hon, cảm xúc cũng chiếm nhiều. Tôi học được thì tất nhiên tôi cũng mong là nó cũng có ích đến các bạn.
 
 ---
 
 Khoe blog
 
-![blog](images/blog-showcase.png)
-
-![post](images/post.png)
+![blog](https://raw.githubusercontent.com/driedjack/my-code-life/master/images/A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202019-10-02%20lu%CC%81c%2021.44.42.png)
 
 *Tôi cũng đang ấp ủ nhiều thứ, mong là sẽ thực hiện được. Just fun!* 🤟🏼
